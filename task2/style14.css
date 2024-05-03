@@ -1,0 +1,76 @@
+@media only screen and (max-width:480px) {
+    .maingrid{
+        width:400px;
+        height:900px;
+        display:grid;
+        grid-template-columns: 150px 250px;
+        grid-template-rows:50px 850px ;
+        
+    }
+    .sidebar{
+        background-color: black;
+        grid-area:1/1/3/2 ;
+    }
+    .navbar{
+    background-color:brown;
+    grid-area:1/2/2/3 ;
+    }
+    .dashboard{
+        background-color:blue;
+        grid-area:2/2/3/3;
+
+    }
+    
+}
+@media only screen and (min-width:480px) and (max-width:1024px) {
+    .maingrid{
+        width:900px;
+        height:700px;
+        display:grid;
+        grid-template-columns: 250px 650px;
+        grid-template-rows:50px 650px ;
+        
+    }
+    .sidebar{
+        background-color: black;
+        grid-area:1/1/3/2 ;
+    }
+    .navbar{
+    background-color:brown;
+    grid-area:1/2/2/3 ;
+    }
+    .dashboard{
+        background-color:blue;
+        grid-area:2/2/3/3;
+
+    }
+    
+}
+@media only screen and (min-width:1025px) {
+    .maingrid{
+        width:1600px;
+        height:700px;
+        display:grid;
+        grid-template-columns: 350px 1250px;
+        grid-template-rows:70px 630px ;
+        
+    }
+    .sidebar{
+        background-color: black;
+        grid-area:1/1/3/2 ;
+
+    }
+    .navbar bg-body-tertiary{
+    background-color:rgb(92, 86, 86);
+    grid-area:1/2/2/3 ;
+    
+    }
+    
+    
+    .dashboard{
+        background-color:rgb(202, 194, 194);
+        grid-area:2/2/3/3;
+
+    }
+}
+
